@@ -12,7 +12,7 @@ public class ReversePolishNotationCalculatorTest {
 
     @Test
     public void shouldCalculateAddition() {
-        //TODO
+        assertEquals(12, rpn.calculatePolishNotation("5 5 1 1 + + +"));//TODO
     }
 
     //TODO
